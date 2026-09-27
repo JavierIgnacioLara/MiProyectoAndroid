@@ -9,6 +9,7 @@ fun HomeScreen2(){
     val windowSizeClass = obtenerWindowSizeClass()
     when (windowSizeClass.widthSizeClass) {
         WindowWidthSizeClass.Compact -> HomeScreenCompacta()
-        WindowWidthSizeClass.Medium -> H
+        WindowWidthSizeClass.Medium -> HomeScreenMediana()
+        WindowWidthSizeClass.Expanded ->HomeScreenExpandida()
     }
 }
